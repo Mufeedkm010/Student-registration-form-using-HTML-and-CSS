@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Student Registration Form</h1>
+        <form>
+            <label for="rollno">Roll Number:</label>
+            <input type="text" placeholder="Enter your roll number" required>
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Enter your name" required>
+
+            <label for="dept">Department:</label>
+            <select name="dept" required>
+                <option value>Select your department</option>
+                <option value="cs">Computer Science</option>
+                <option value="It">Information Technology</option>
+                <option value="ece">Electronics and Communication</option>
+                <option value="mech">Mechanical Engineering</option>
+                <option value="civil">Civil Engineering</option>
+            </select>
+
+            <label for="marks10">10th Marks (%):</label>
+            <input type="number" placeholder="Enter your 10th marks" required>
+
+            <label for="marks12">12th Marks (%):</label>
+            <input type="number" placeholder="Enter your 12th marks" required>
+
+            <label for="degree">Degree Percentage (%):</label>
+            <input type="number" placeholder="Enter your degree percentage" required>
+
+            <div class="buttons">
+                <button type="submit" class="submit-btn">Submit</button>
+                <button type="reset" class="cancel-btn">Cancel</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
